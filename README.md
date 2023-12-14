@@ -1,2 +1,2 @@
 # datahighway-opendata
-parse and analyze open linked data
+parse and analyse open linked data
