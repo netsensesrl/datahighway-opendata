@@ -19,6 +19,7 @@ for filename in os.listdir(folder):
             spatial = "null"
             spatial_uri = "null"
             geo_name = "null"
+            temp_geo_name = "null"
             holder_name_key = "null"
             for key in content["result"][i]["extras"]:
                 if(key.get("key")=="spatial_uri"):
@@ -38,7 +39,10 @@ for filename in os.listdir(folder):
                             north = r_json["geonames"][0]["bbox"]["north"]
                             west = r_json["geonames"][0]["bbox"]["west"]
                             spatial = c_bbox(east, south, north, west)
-                            geo_name=r_json["geonames"][0]["asciiName"]
+                            temp_geo_name=r_json["geonames"][0]["asciiName"]
+                            for key in r_json["geonames"][0]["alternateNames"]:
+                                if(key.get("lang")=="it"):
+                                    geo_name = key.get("name")
                     except:
                         print("Error in " + filename + " result " + str(i))
                 if(key.get("key")=="Coordinate Spaziali"):
@@ -68,11 +72,15 @@ for filename in os.listdir(folder):
                     north = r_json["geonames"][0]["bbox"]["north"]
                     west = r_json["geonames"][0]["bbox"]["west"]
                     spatial = c_bbox(east, south, north, west)
-                    geo_name=r_json["geonames"][0]["asciiName"]
+                    temp_geo_name=r_json["geonames"][0]["asciiName"]
+                    for key in r_json["geonames"][0]["alternateNames"]:
+                        if(key.get("lang")=="it"):
+                            geo_name = key.get("name")
                     spatial_uri = "https://www.geonames.org/"+ str(r_json["geonames"][0]["geonameId"])
                 except:
                     pass
-                    
+            if geo_name=="null":
+                geo_name = temp_geo_name           
             data_to_save = {
                 "id": content["result"][i]["id"],
                 "holder_name" : content["result"][i]["holder_name"],
