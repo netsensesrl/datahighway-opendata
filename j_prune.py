@@ -60,7 +60,7 @@ for filename in os.listdir(folder):
                         count = count+1
                         req_count = 0 
                     holder_name = content["result"][i]["holder_name"].replace(" ", "+")
-                    r = requests.get("http://api.geonames.org/searchJSON?formatted=true&q="+holder_name+"&maxRows=10&lang=es&username=pruned"+str(count)+"&style=full")
+                    r = requests.get("http://api.geonames.org/searchJSON?formatted=true&q="+holder_name_key+"&maxRows=10&lang=es&username=pruned"+str(count)+"&style=full")
                     req_count=req_count+1
                     r_json= r.json()
                     east = r_json["geonames"][0]["bbox"]["east"]
