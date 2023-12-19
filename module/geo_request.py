@@ -10,9 +10,9 @@ def g_request(var, count, mode):
             geo_id = var
         if(mode == 2):
             if "Regione" in var:
-                var = var.replace("Regione", "")
+                var = var.replace("Regione ", "")
             if "Comune di" in var:
-                var = var.replace("Comune di", "")
+                var = var.replace("Comune di ", "")
             r = requests.get("http://api.geonames.org/searchJSON?formatted=true&q="+var+"&maxRows=10&lang=es&username=pruned"+str(count)+"&style=full")
         r_json= r.json()
         spatial = c_bbox(r_json["geonames"][0]["bbox"]["east"], r_json["geonames"][0]["bbox"]["south"], r_json["geonames"][0]["bbox"]["north"], r_json["geonames"][0]["bbox"]["west"])
