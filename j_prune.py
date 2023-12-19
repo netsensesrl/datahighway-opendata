@@ -1,13 +1,11 @@
 import json
 import os
 import requests
-import time
-from convert_bbox import c_bbox
+from module.geo_requests import g_request
 
 folder = 'json'
 
 json_prune = {"results" : []}
-
 count = 0
 req_count = 0
 
@@ -22,33 +20,30 @@ for filename in os.listdir(folder):
             temp_geo_name = "null"
             holder_name_key = "null"
             for key in content["result"][i]["extras"]:
-                if(key.get("key")=="spatial_uri"):
-                    spatial_uri = key.get("value")
-                    if req_count == 900:
+                if req_count > 900:
                         print("account switch... " + str(count+1))
                         count = count+1
                         req_count = 0 
+                if(key.get("key")=="spatial_uri"):
+                    spatial_uri = key.get("value")
+                    req_count=req_count+1
                     try:
                         if("geonames" in spatial_uri):
                             geoid = spatial_uri.split("/")[3]
-                            r = requests.get("http://api.geonames.org/childrenJSON?formatted=true&geonameId="+geoid+"&username=pruned"+str(count)+"&style=full")
-                            req_count=req_count+1
-                            r_json= r.json()
-                            east = r_json["geonames"][0]["bbox"]["east"]
-                            south = r_json["geonames"][0]["bbox"]["south"]
-                            north = r_json["geonames"][0]["bbox"]["north"]
-                            west = r_json["geonames"][0]["bbox"]["west"]
-                            spatial = c_bbox(east, south, north, west)
-                            temp_geo_name=r_json["geonames"][0]["asciiName"]
-                            for key in r_json["geonames"][0]["alternateNames"]:
-                                if(key.get("lang")=="it"):
-                                    geo_name = key.get("name")
-                    except:
-                        print("Error in " + filename + " result " + str(i))
+                            geo_data = g_request(geoid, count, 1)
+                            spatial = geo_data['spatial']
+                            temp_geo_name = geo_data['temp_geo_name']
+                            geo_name = geo_data['geo_name']
+                    except Exception as e: 
+                        print(e)
                 if(key.get("key")=="Coordinate Spaziali"):
                     spatial = key["value"]
-                    spatial_json = json.loads(spatial)
-                    spatial = spatial_json["coordinates"]
+                    try:
+                        spatial_json = json.loads(spatial)
+                        spatial = spatial_json["coordinates"]
+                    except:
+                        spatial = key["value"]
+                        spatial = spatial["coordinates"]
                 if(key.get("key")=="holder_name"):
                     holder_name_key = key["value"]
                 if(key.get("key")=="spatial" and spatial==''):
@@ -57,26 +52,29 @@ for filename in os.listdir(folder):
                         spatial = spatial.get("coordinates")
                     except:
                         continue
-            if(spatial=="null" or spatial_uri=="null"):
+            if(spatial=="null"):
+                req_count=req_count+1
                 try: #Per evitare Geodati gov, al momento
-                    if req_count == 900:
-                        print("account switch... " + str(count+1))
-                        count = count+1
-                        req_count = 0 
                     holder_name = content["result"][i]["holder_name"].replace(" ", "+")
-                    r = requests.get("http://api.geonames.org/searchJSON?formatted=true&q="+holder_name_key+"&maxRows=10&lang=es&username=pruned"+str(count)+"&style=full")
-                    req_count=req_count+1
-                    r_json= r.json()
-                    east = r_json["geonames"][0]["bbox"]["east"]
-                    south = r_json["geonames"][0]["bbox"]["south"]
-                    north = r_json["geonames"][0]["bbox"]["north"]
-                    west = r_json["geonames"][0]["bbox"]["west"]
-                    spatial = c_bbox(east, south, north, west)
-                    temp_geo_name=r_json["geonames"][0]["asciiName"]
-                    for key in r_json["geonames"][0]["alternateNames"]:
-                        if(key.get("lang")=="it"):
-                            geo_name = key.get("name")
-                    spatial_uri = "https://www.geonames.org/"+ str(r_json["geonames"][0]["geonameId"])
+                    geo_data = g_request(holder_name_key, count, 2)
+                    spatial = geo_data['spatial']
+                    temp_geo_name = geo_data['temp_geo_name']
+                    geo_name = geo_data['geo_name']
+                    geo_id=geo_data["geo_id"]
+                    spatial_uri = "https://www.geonames.org/"+ str(geo_data['geo_id'])
+                except:
+                    pass
+            if(spatial_uri=="null"):
+                req_count=req_count+1
+                try:
+                    holder_name = content["result"][i]["holder_name"].replace(" ", "+")
+                    geo_data = g_request(holder_name, count, 2)
+                    if(spatial=="null"):
+                        spatial = geo_data['spatial']
+                    temp_geo_name = geo_data['temp_geo_name']
+                    geo_name = geo_data['geo_name']
+                    geo_id=geo_data["geo_id"]
+                    spatial_uri = "https://www.geonames.org/"+ str(geo_data['geo_id'])
                 except:
                     pass
             if geo_name=="null":
