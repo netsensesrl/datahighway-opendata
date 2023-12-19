@@ -25,7 +25,8 @@ def g_request(var, count, mode):
             "spatial" : spatial,
             "temp_geo_name" : temp_geo_name,
             "geo_name" : geo_name,
-            "geo_id" : geo_id
+            "geo_id" : geo_id,
+            "geo_term" : var
         }
     except Exception as e: 
         print(e)

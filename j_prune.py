@@ -19,6 +19,7 @@ for filename in os.listdir(folder):
             geo_name = "null"
             temp_geo_name = "null"
             holder_name_key = "null"
+            geo_term = "null"
             for key in content["result"][i]["extras"]:
                 if req_count > 900:
                         print("account switch... " + str(count+1))
@@ -34,6 +35,7 @@ for filename in os.listdir(folder):
                             spatial = geo_data['spatial']
                             temp_geo_name = geo_data['temp_geo_name']
                             geo_name = geo_data['geo_name']
+                            geo_term = geo_data['geo_term']
                     except Exception as e: 
                         print(e)
                 if(key.get("key")=="Coordinate Spaziali"):
@@ -62,6 +64,7 @@ for filename in os.listdir(folder):
                     geo_name = geo_data['geo_name']
                     geo_id=geo_data["geo_id"]
                     spatial_uri = "https://www.geonames.org/"+ str(geo_data['geo_id'])
+                    geo_term = geo_data['geo_term']
                 except:
                     pass
             if(spatial_uri=="null"):
@@ -75,6 +78,7 @@ for filename in os.listdir(folder):
                     geo_name = geo_data['geo_name']
                     geo_id=geo_data["geo_id"]
                     spatial_uri = "https://www.geonames.org/"+ str(geo_data['geo_id'])
+                    geo_term = geo_data['geo_term']
                 except:
                     pass
             if geo_name=="null":
@@ -85,7 +89,8 @@ for filename in os.listdir(folder):
                 "holder_name_key" : holder_name_key,
                 "geo_name" : geo_name,
                 "spatial" : spatial,
-                "spatial_uri" : spatial_uri
+                "spatial_uri" : spatial_uri,
+                "geoname_query_term" : geo_term
             }
             json_prune["results"].append(data_to_save)
 
