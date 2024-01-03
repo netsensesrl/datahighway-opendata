@@ -11,7 +11,8 @@ def get_geonames_id(place_name, user_id):
             'q': place_name,
             'maxRows': 3,
             'username': username,
-            'featureCode': 'P'
+            'featureCode': 'P',
+            'country': 'IT'
         }
         response = requests.get(base_url, params=params)
         data = response.json()
@@ -28,7 +29,8 @@ def get_geonames_id(place_name, user_id):
             'q': place_name,
             'maxRows': 10,
             'username': username,
-            'featureCode': 'A'
+            'featureCode': 'A',
+            'country': 'IT'
         }
 
         response = requests.get(base_url, params=params)
