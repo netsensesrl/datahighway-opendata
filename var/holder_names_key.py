@@ -1,6 +1,6 @@
 holder_names_key = {
     "comune-di-lecce": "3174953",
-    "camera-di-commercio-di-lecce": "",
+    "camera-di-commercio-di-lecce": "3174953",
     "Regione Autonoma della Sardegna": "2523228",
     "Regione Emilia Romagna": "3177401",
     "Regione Autonoma Friuli Venezia Giulia": "3176525",
