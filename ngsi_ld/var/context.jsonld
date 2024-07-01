@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "name": "https://schema.org/name",
+    "address": "https://schema.org/address",
+    "rating": "https://schema.org/rating",
+    "user_ratings_total": "https://schema.org/ratingCount",
+    "lat": "https://schema.org/latitude",
+    "lng": "https://schema.org/longitude",
+    "lon": "https://schema.org/longitude",
+    "Nominativo": "https://schema.org/name",
+    "Recapito": "https://schema.org/telephone",
+    "Address": "https://schema.org/streetAddress",
+    "City": "https://schema.org/addressLocality",
+    "Full Address": "https://schema.org/postalAddress",
+    "Latitude": "https://schema.org/latitude",
+    "Longitude": "https://schema.org/longitude",
+    "filename": "https://schema.org/url",
+    "content": "https://schema.org/Text"
+  }
+}
