@@ -23,7 +23,7 @@ def update_routine(url, collect_url, mode):
 def main():
     sleep_time = 12 * 60 * 60 # 12 hours
     routines = [
-        ("https://www.dati.gov.it/opendata/api/3/action/package_list", "https://dati.gov.it/opendata", 0)
+        ("https://www.dati.gov.it/opendata/api/3/action/package_list", "https://www.dati.gov.it/opendata", 0)
         # other ckan sources can be added here
     ]
 
