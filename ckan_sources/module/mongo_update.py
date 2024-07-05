@@ -13,10 +13,11 @@ def geojson_format(m_pruned):
         result["spatial"] = polygon_geojson
 
 def ingest(client, db, data, collection_name):
+    if collection_name=="pruned":
+        data["result"] = data.pop("results")
     for result in data["result"]:
         db[collection_name].insert_one(result)
     if collection_name=="pruned":
-        data["result"] = data.pop("results")
         db[collection_name].create_index([("spatial", pymongo.GEOSPHERE)])
 
 def m_ingest(missing_pruned, missing_json):
