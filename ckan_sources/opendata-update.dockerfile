@@ -2,7 +2,6 @@ FROM python:3.8
 
 COPY json /app/json
 COPY module/ /app/module
-COPY prune /app/prune
 COPY var /app/var
 COPY main.py /app/main.py
 

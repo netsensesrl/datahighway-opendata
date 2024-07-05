@@ -1,10 +1,6 @@
 import json
 from module.geo_requests import g_request
 
-def save_to_file(json_prune):
-    with open(f'./prune/document_pruned.json', 'w') as output:
-        json.dump(json_prune, output, indent=2)
-
 def prune(missing_names):
     json_prune = {"results" : []}
     count_geo=0
@@ -55,6 +51,5 @@ def prune(missing_names):
             "groups" : groups
         }
         json_prune["results"].append(data_to_save)
-    save_to_file(json_prune)
     return (json_prune)
     
