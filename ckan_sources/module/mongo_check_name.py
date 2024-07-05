@@ -1,3 +1,4 @@
+import os
 import logging
 import json
 from pymongo import MongoClient
@@ -18,7 +19,8 @@ def save_to_file(missing_packages):
     return final_json
 
 def check_name(pl_list, collect_url, mode):
-    client =  MongoClient("mongodb://172.20.0.2:27017/")
+    mongo_ip=os.getenv("MONGO_IP")
+    client =  MongoClient(f"mongodb://{mongo_ip}:27017/")
     db = client['opendata-datahighway']
     collection = db['documents']
     mongo_names = [str(doc['name']) for doc in collection.find({}, {'name': 1})]

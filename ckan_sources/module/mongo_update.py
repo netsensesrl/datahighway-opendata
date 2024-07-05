@@ -1,3 +1,4 @@
+import os
 import pymongo
 from pymongo import MongoClient
 import json
@@ -21,7 +22,8 @@ def ingest(client, db, data, collection_name):
         db[collection_name].create_index([("spatial", pymongo.GEOSPHERE)])
 
 def m_ingest(missing_pruned, missing_json):
-    client = MongoClient("mongodb://172.20.0.2:27017/")
+    mongo_ip=os.getenv("MONGO_IP")
+    client = MongoClient(f"mongodb://{mongo_ip}:27017/")
     db = client["opendata-datahighway"]
     directory = "prune"
     geojson_format(missing_pruned)

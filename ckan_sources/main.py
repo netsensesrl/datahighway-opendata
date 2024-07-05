@@ -1,5 +1,8 @@
+import os
 import time
 import logging
+from pathlib import Path
+from dotenv import load_dotenv
 from module.package_list_collect import pl_collect
 from module.check_package_list import check_pl
 from module.mongo_check_name import check_name
@@ -21,6 +24,8 @@ def update_routine(url, collect_url, mode):
         return None
 
 def main():
+    dotenv_path = Path('./env/settings.env')
+    load_dotenv(dotenv_path=dotenv_path)
     sleep_time = 12 * 60 * 60 # 12 hours
     routines = [
         ("https://www.dati.gov.it/opendata/api/3/action/package_list", "https://www.dati.gov.it/opendata", 0)
