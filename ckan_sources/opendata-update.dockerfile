@@ -1,5 +1,6 @@
 FROM python:3.8
 
+COPY env /app/env
 COPY json /app/json
 COPY module/ /app/module
 COPY var /app/var
