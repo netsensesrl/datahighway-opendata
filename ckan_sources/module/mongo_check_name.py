@@ -18,7 +18,7 @@ def save_to_file(missing_packages):
     return final_json
 
 def check_name(pl_list, collect_url, mode):
-    client =  MongoClient("mongodb://172.20.0.2:27017/") 
+    client =  MongoClient("mongodb://172.20.0.2:27017/")
     db = client['opendata-datahighway']
     collection = db['documents']
     mongo_names = [str(doc['name']) for doc in collection.find({}, {'name': 1})]
@@ -43,4 +43,3 @@ def check_name(pl_list, collect_url, mode):
                 missing_packages.append(future.result())
     json_missing = save_to_file(missing_packages)
     return json_missing
-                    

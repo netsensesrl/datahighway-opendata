@@ -26,7 +26,7 @@ def fetch_package_id(name, cl_url, mode):
     if package_response and package_response.status_code == 200:
         package_json = package_response.json()
         try:
-            if package_json["result"]["type"]!="harvest":
+            if package_json["result"]["type"]!="harvest":#
                 if package_json["result"]["holder_name"]!="None":
                     if package_json["result"]["holder_name"] == "Comune di Catania" and mode==0:
                         return None
