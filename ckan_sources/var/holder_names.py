@@ -113,5 +113,6 @@ holder_names = {
     "Arpa Umbria" : "3165048",
     "Comune di Narni" : "3172377",
     "ANAC": "3169070",
-    "AGCOM": "3169070"
+    "AGCOM": "3169070",
+    "Autorità Garante della Concorrenza e del Mercato": "3169070"
 }
