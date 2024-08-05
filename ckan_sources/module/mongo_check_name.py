@@ -7,15 +7,13 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 logging.basicConfig(level=logging.INFO)
 
-def save_to_file(missing_packages):
+def json_format(missing_packages):
     final_json = {
         "help": "https://dati.gov.it/opendata/api/3/action/help_show?name=package_search",
         "success": True,
         "count": len(missing_packages),
         "result": missing_packages
     }
-    with open(f'json/document.json', 'w') as json_file:
-            json.dump(final_json, json_file, indent=2)
     return final_json
 
 def check_name(pl_list, collect_url, mode):
@@ -43,5 +41,5 @@ def check_name(pl_list, collect_url, mode):
                 result = future.result()
                 logging.info(f"{result['name']} added in all_results")
                 missing_packages.append(future.result())
-    json_missing = save_to_file(missing_packages)
+    json_missing = json_format(missing_packages)
     return json_missing
