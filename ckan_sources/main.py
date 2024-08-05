@@ -24,8 +24,7 @@ def update_routine(url, collect_url, mode):
         return None
 
 def main():
-    dotenv_path = Path('./env/settings.env')
-    load_dotenv(dotenv_path=dotenv_path)
+    load_dotenv()
     sleep_time = 12 * 60 * 60 # 12 hours
     routines = [
         ("https://www.dati.gov.it/opendata/api/3/action/package_list", "https://www.dati.gov.it/opendata", 0)
