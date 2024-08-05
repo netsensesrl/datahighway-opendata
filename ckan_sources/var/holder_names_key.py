@@ -1036,5 +1036,6 @@ holder_names_key = {
     "Comune di Pieve di Soligo": "3170744",
     "ANAC": "",
     "AGCOM": "",
-    "Autorità Garante della Concorrenza e del Mercato": ""
+    "Autorità Garante della Concorrenza e del Mercato": "",
+    "ARPA": ""
 }

@@ -109,5 +109,6 @@ geonames_bbox = {
     "PCM - Protezione Civile": '{"east": 12.726343428495486, "south": 41.765760675629664, "north": 42.05054833023755, "west": 12.334658845099607, "accuracyLevel": 0}',
     "CONSIP": '{"east": 12.726343428495486, "south": 41.765760675629664, "north": 42.05054833023755, "west": 12.334658845099607, "accuracyLevel": 0}',
     "Provincia di Biella" : '{"east": 8.248072058560814, "south": 45.685931757682646, "north": 45.752503033679965, "west": 8.162047332634167, "accuracyLevel": 0}',
-    "Autorità Garante della Concorrenza e del Mercato" : '{"east": 12.726343428495486, "south": 41.765760675629664, "north": 42.05054833023755, "west": 12.334658845099607, "accuracyLevel": 0}'
+    "Autorità Garante della Concorrenza e del Mercato" : '{"east": 12.726343428495486, "south": 41.765760675629664, "north": 42.05054833023755, "west": 12.334658845099607, "accuracyLevel": 0}',
+    "ARPA" : '{"east": 12.726343428495486, "south": 41.765760675629664, "north": 42.05054833023755, "west": 12.334658845099607, "accuracyLevel": 0}'
 }
