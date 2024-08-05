@@ -17,7 +17,7 @@ cd datahighway-opendata
 Move to the ckan_sources folder if you want to collect packages or to the ngsi_ld folder if you want to manage the broker
 
 ## ckan_sources usage
-Create a folder called "env" and define a "settings.env" file in it. In the file, define an environment variable MONGO_IP with value "localhost" if you want to use the script without instantiating a docker container, otherwise enter mongodb://<ip_address>:27017, replacing ip_adress with the ip of the mongo docker container.
+Create a ".env" file. In the file, define an environment variable MONGO_IP with value "localhost" if you want to use the script without instantiating a docker container, otherwise enter mongodb://<ip_address>:27017, replacing ip_adress with the ip of the mongo docker container.
 
 ```bash
 MONGO_IP=localhost
