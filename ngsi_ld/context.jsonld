@@ -101,6 +101,25 @@
     "establishedDate": "http://dbpedia.org/property/establishedDate",
     "url": "http://dbpedia.org/property/url",
     "yearSun": "http://dbpedia.org/property/yearSun",
-    "mapsize": "http://dbpedia.org/property/mapsize"
+    "mapsize": "http://dbpedia.org/property/mapsize",
+    "captionAlign": "http://dbpedia.org/property/captionAlign",
+    "sepUv": "http://dbpedia.org/property/sepUv",
+    "whs": "http://dbpedia.org/property/whs",
+    "area": "http://dbpedia.org/property/area",
+    "criteria": "http://dbpedia.org/property/criteria",
+    "id": "http://dbpedia.org/property/id",
+    "year": "http://dbpedia.org/property/year",
+    "aprUv": "http://dbpedia.org/property/aprUv",
+    "augUv": "http://dbpedia.org/property/augUv",
+    "bufferZone": "http://dbpedia.org/property/bufferZone",
+    "decUv": "http://dbpedia.org/property/decUv",
+    "febUv": "http://dbpedia.org/property/febUv",
+    "janUv": "http://dbpedia.org/property/janUv",
+    "julUv": "http://dbpedia.org/property/julUv",
+    "junUv": "http://dbpedia.org/property/junUv",
+    "marUv": "http://dbpedia.org/property/marUv",
+    "mayUv": "http://dbpedia.org/property/mayUv",
+    "novUv": "http://dbpedia.org/property/novUv",
+    "octUv": "http://dbpedia.org/property/octUv"
   }
 }
