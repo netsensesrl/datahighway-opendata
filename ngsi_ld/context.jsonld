@@ -120,6 +120,7 @@
     "marUv": "http://dbpedia.org/property/marUv",
     "mayUv": "http://dbpedia.org/property/mayUv",
     "novUv": "http://dbpedia.org/property/novUv",
-    "octUv": "http://dbpedia.org/property/octUv"
+    "octUv": "http://dbpedia.org/property/octUv",
+    "hasRegion": "https://dbpedia.org/ontology/AdministrativeRegion"
   }
 }
