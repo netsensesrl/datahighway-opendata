@@ -207,6 +207,9 @@
     "pushpinLabelPosition": "http://dbpedia.org/property/pushpinLabelPosition",
     "otherarticle": "http://dbpedia.org/property/otherarticle",
     "fractions": "http://dbpedia.org/property/fractions",
-    "hasProvince" : "https://dbpedia.org/ontology/Province"
+    "hasProvince": "http://dbpedia.org/ontology/Province",
+    "notes": "http://dbpedia.org/property/notes",
+    "usage": "http://dbpedia.org/property/usage",
+    "isLocatedAt": "http://dbpedia.org/ontology/location"
   }
 }
