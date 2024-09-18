@@ -8,7 +8,7 @@
         "lat": "https://schema.org/latitude",
         "lng": "https://schema.org/longitude",
         "lon": "https://schema.org/longitude",
-        "Region": "http://dbpedia.org/ontology/region",
+        "Region": "http://dbpedia.org/ontology/Region",
         "City": "http://dbpedia.org/ontology/City",
         "Castle": "http://dbpedia.org/ontology/Castle",
         "anthem": "http://dbpedia.org/ontology/anthem",
