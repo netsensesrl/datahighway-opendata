@@ -10,7 +10,7 @@
         "lon": "https://schema.org/longitude",
         "Region": "http://dbpedia.org/ontology/region",
         "City": "http://dbpedia.org/ontology/City",
-        "Castle" "http://dbpedia.org/ontology/Castle",
+        "Castle": "http://dbpedia.org/ontology/Castle",
         "anthem": "http://dbpedia.org/ontology/anthem",
         "areaCode": "https://dbpedia.org/ontology/areaCode",
         "areaCodeType": "http://dbpedia.org/ontology/areaCodeType",
