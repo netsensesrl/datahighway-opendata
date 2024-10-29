@@ -219,7 +219,20 @@
         "Person": "https://schema.org/Person",
         "isOwnedBy": "https://schema.org/Person",
         "businessName": "https://schema.org/legalName",
-        "isLocatedIn": "http://dbpedia.org/ontology/location"
+        "isLocatedIn": "http://dbpedia.org/ontology/location",
+        "building": "http://dbpedia.org/ontology/buildingType",
+        "denomination": "http://dbpedia.org/ontology/denomination",
+        "religion": "http://dbpedia.org/ontology/religion",
+        "tourism": "http://dbpedia.org/ontology/touristicSite",
+        "wikidata": "http://dbpedia.org/ontology/wikiPageID",
+        "alt_name": "http://schema.org/alternateName",
+        "old_name": "http://dbpedia.org/ontology/oldName",
+        "loc_name": "http://dbpedia.org/ontology/commonName",
+        "service_times": "http://dbpedia.org/ontology/openingDate",
+        "parish": "http://dbpedia.org/ontology/parish",
+        "opening_hours": "http://dbpedia.org/ontology/openingDate",
+        "note": "http://dbpedia.org/property/notes",
+        "contact_facebook": "http://schema.org/url"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
