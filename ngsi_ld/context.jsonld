@@ -11,6 +11,7 @@
         "Region": "http://dbpedia.org/ontology/Region",
         "City": "http://dbpedia.org/ontology/City",
         "Castle": "http://dbpedia.org/ontology/Castle",
+        "Church": "https://dbpedia.org/ontology/Church",
         "anthem": "http://dbpedia.org/ontology/anthem",
         "areaCode": "https://dbpedia.org/ontology/areaCode",
         "areaCodeType": "http://dbpedia.org/ontology/areaCodeType",
