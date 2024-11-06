@@ -233,7 +233,12 @@
         "parish": "http://dbpedia.org/ontology/parish",
         "opening_hours": "http://dbpedia.org/ontology/openingDate",
         "note": "http://dbpedia.org/property/notes",
-        "contact_facebook": "http://schema.org/url"
+        "contact_facebook": "http://schema.org/url",
+        "restaurant": "https://dbpedia.org/ontology/Restaurant",
+        "phone": "https://dbpedia.org/ontology/MobilePhone",
+        "brewery": "https://dbpedia.org/ontology/Brewery",
+        "website": "http://dbpedia.org/ontology/Website",
+        "cuisine": "http://dbpedia.org/ontology/cuisine"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
