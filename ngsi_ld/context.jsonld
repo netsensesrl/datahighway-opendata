@@ -235,9 +235,8 @@
         "note": "http://dbpedia.org/property/notes",
         "contact_facebook": "http://schema.org/url",
         "restaurant": "https://dbpedia.org/ontology/Restaurant",
-        "phone": "https://dbpedia.org/ontology/MobilePhone",
+        "phone": "http://dbpedia.org/property/telephone",
         "brewery": "https://dbpedia.org/ontology/Brewery",
-        "website": "http://dbpedia.org/ontology/Website",
         "cuisine": "http://dbpedia.org/ontology/cuisine",
         "drink": "http://purl.obolibrary.org/obo/FOODON_03315855",
         "bar": "https://schema.org/BarOrPub",
@@ -246,6 +245,12 @@
         "cafe": "https://schema.org/CafeOrCoffeeShop",
         "pub": "https://schema.org/Winery",
         "kiosk": "http://purl.obolibrary.org/obo/ENVO_01000974",
+        "email": "https://schema.org/email",
+        "payment": "https://schema.org/PaymentMethod",
+        "diet": "https://schema.org/Diet",
+        "contact_phone": "http://dbpedia.org/property/telephone",
+        "facebook": "http://purl.obolibrary.org/obo/GSSO_005408",
+        "smoking": "https://schema.org/smokingAllowed"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
