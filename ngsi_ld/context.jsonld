@@ -238,7 +238,14 @@
         "phone": "https://dbpedia.org/ontology/MobilePhone",
         "brewery": "https://dbpedia.org/ontology/Brewery",
         "website": "http://dbpedia.org/ontology/Website",
-        "cuisine": "http://dbpedia.org/ontology/cuisine"
+        "cuisine": "http://dbpedia.org/ontology/cuisine",
+        "drink": "http://purl.obolibrary.org/obo/FOODON_03315855",
+        "bar": "https://schema.org/BarOrPub",
+        "live_music": "https://schema.org/MusicEvent",
+        "contact_instagram": "http://schema.org/url",
+        "cafe": "https://schema.org/CafeOrCoffeeShop",
+        "pub": "https://schema.org/Winery",
+        "kiosk": "http://purl.obolibrary.org/obo/ENVO_01000974",
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
