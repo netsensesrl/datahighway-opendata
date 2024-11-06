@@ -249,11 +249,13 @@
         "payment": "https://schema.org/PaymentMethod",
         "diet": "https://schema.org/Diet",
         "contact_phone": "http://dbpedia.org/property/telephone",
-        "facebook": "http://purl.obolibrary.org/obo/GSSO_005408",
+        "facebook": "http://schema.org/url",
         "smoking": "https://schema.org/smokingAllowed",
         "tobacco": "http://purl.obolibrary.org/obo/OBIB_0000056",
         "internet_access": "http://purl.bioontology.org/ontology/MESH/D000077230",
-        "wifi": "http://purl.obolibrary.org/obo/GSSO_000173"
+        "wifi": "http://purl.obolibrary.org/obo/GSSO_000173",
+        "note": "https://schema.org/NoteDigitalDocument",
+        "seasidefacility": "http://snomed.info/id/257700000"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
