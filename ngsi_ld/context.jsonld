@@ -244,7 +244,7 @@
         "contact_instagram": "http://schema.org/url",
         "Cafe": "https://schema.org/CafeOrCoffeeShop",
         "pub": "https://schema.org/Winery",
-        "kiosk": "http://purl.obolibrary.org/obo/ENVO_01000974",
+        "Kiosk": "http://purl.obolibrary.org/obo/ENVO_01000974",
         "email": "https://schema.org/email",
         "payment": "https://schema.org/PaymentMethod",
         "diet": "https://schema.org/Diet",
