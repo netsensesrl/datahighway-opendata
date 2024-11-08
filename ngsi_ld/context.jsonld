@@ -242,7 +242,7 @@
         "bar": "https://schema.org/BarOrPub",
         "live_music": "https://schema.org/MusicEvent",
         "contact_instagram": "http://schema.org/url",
-        "cafe": "https://schema.org/CafeOrCoffeeShop",
+        "Cafe": "https://schema.org/CafeOrCoffeeShop",
         "pub": "https://schema.org/Winery",
         "kiosk": "http://purl.obolibrary.org/obo/ENVO_01000974",
         "email": "https://schema.org/email",
