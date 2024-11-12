@@ -12,6 +12,7 @@
         "City": "http://dbpedia.org/ontology/City",
         "Castle": "http://dbpedia.org/ontology/Castle",
         "Church": "https://dbpedia.org/ontology/Church",
+        "FastFood": "http://purl.obolibrary.org/obo/FOODON_03311283",
         "anthem": "http://dbpedia.org/ontology/anthem",
         "areaCode": "https://dbpedia.org/ontology/areaCode",
         "areaCodeType": "http://dbpedia.org/ontology/areaCodeType",
@@ -253,7 +254,11 @@
         "smoking": "https://schema.org/smokingAllowed",
         "tobacco": "http://purl.obolibrary.org/obo/OBIB_0000056",
         "internet_access": "http://purl.bioontology.org/ontology/MESH/D000077230",
-        "wifi": "http://purl.obolibrary.org/obo/GSSO_000173"
+        "wifi": "http://purl.obolibrary.org/obo/GSSO_000173",
+        "brand": "http://dbpedia.org/ontology/brand",
+        "internet_access": "http://purl.bioontology.org/ontology/MESH/D000077230"
+        "air_conditioning": "http://purl.obolibrary.org/obo/ENVO_00002874",
+        "street_vendor": "http://purl.obolibrary.org/obo/FOODON_03530120"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
