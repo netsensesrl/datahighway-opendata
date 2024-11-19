@@ -257,7 +257,8 @@
         "wifi": "http://purl.obolibrary.org/obo/GSSO_000173",
         "brand": "http://dbpedia.org/ontology/brand",
         "air_conditioning": "http://purl.obolibrary.org/obo/ENVO_00002874",
-        "street_vendor": "http://purl.obolibrary.org/obo/FOODON_03530120"
+        "street_vendor": "http://purl.obolibrary.org/obo/FOODON_03530120",
+        "housenumber": "http://purl.obolibrary.org/obo/NCIT_C81293"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
