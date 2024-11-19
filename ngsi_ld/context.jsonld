@@ -256,7 +256,7 @@
         "internet_access": "http://purl.bioontology.org/ontology/MESH/D000077230",
         "wifi": "http://purl.obolibrary.org/obo/GSSO_000173",
         "brand": "http://dbpedia.org/ontology/brand",
-        "internet_access": "http://purl.bioontology.org/ontology/MESH/D000077230"
+        "internet_access": "http://purl.bioontology.org/ontology/MESH/D000077230",
         "air_conditioning": "http://purl.obolibrary.org/obo/ENVO_00002874",
         "street_vendor": "http://purl.obolibrary.org/obo/FOODON_03530120"
     },
