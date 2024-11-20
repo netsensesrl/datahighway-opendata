@@ -261,7 +261,8 @@
         "housenumber": "http://purl.obolibrary.org/obo/NCIT_C81293",
         "local_name": "http://schema.org/alternateName",
         "geoloc_rank": "http://schema.org/Rating",
-        "Garden": "https://dbpedia.org/ontology/Garden"
+        "Garden": "https://dbpedia.org/ontology/Garden",
+        "ArchaeologicalSite": "https://dbpedia.org/page/Archaeological_site"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
