@@ -292,7 +292,16 @@
         "artist_name": "https://schema.org/creator",
         "artwork_type": "https://schema.org/additionalType",
         "parking": "http://schema.mobivoc.org/ParkingSpace",
-        "outdoor_seating": "https://schema.org/seatingType"
+        "outdoor_seating": "https://schema.org/seatingType",
+        "self_service": "https://dbpedia.org/page/Do_it_yourself",
+        "automated": "https://dbpedia.org/page/Automation",
+        "motorcar": "https://dbpedia.org/page/Car",
+        "authentication": "https://dbpedia.org/page/Authentication",
+        "socket": "https://dbpedia.org/page/Electrical_connector",
+        "screen": "https://schema.org/MovieTheater",
+        "architect": "https://dbpedia.org/ontology/architect",
+        "emergency": "https://dbpedia.org/page/Emergency_department",
+        "healthcare": "https://dbpedia.org/page/Health_care"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
