@@ -298,7 +298,7 @@
         "motorcar": "https://dbpedia.org/page/Car",
         "authentication": "https://dbpedia.org/page/Authentication",
         "socket": "https://dbpedia.org/page/Electrical_connector",
-        "screen": "https://schema.org/MovieTheater",
+        "screen": "https://schema.org/screenCount",
         "architect": "https://dbpedia.org/ontology/architect",
         "emergency": "https://dbpedia.org/page/Emergency_department",
         "healthcare": "https://dbpedia.org/page/Health_care"
