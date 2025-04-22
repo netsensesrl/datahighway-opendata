@@ -316,7 +316,8 @@
         "takeaway": "http://www.disit.org/km4city/schema#Take_away",
         "Atm": "https://schema.org/AutomatedTeller",
         "Bank": "https://schema.org/BankOrCreditUnion",
-        "Cinema": "https://schema.org/MovieTheater"
+        "Cinema": "https://schema.org/MovieTheater",
+        "ArtsCentre": "https://dbpedia.org/page/Arts_centre"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
