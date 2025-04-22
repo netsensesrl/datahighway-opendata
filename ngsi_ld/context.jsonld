@@ -315,7 +315,8 @@
         "delivery": "https://dbpedia.org/page/Food_delivery",
         "takeaway": "http://www.disit.org/km4city/schema#Take_away",
         "Atm": "https://schema.org/AutomatedTeller",
-        "Bank": "https://schema.org/BankOrCreditUnion"
+        "Bank": "https://schema.org/BankOrCreditUnion",
+        "Cinema": "https://schema.org/MovieTheater"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
