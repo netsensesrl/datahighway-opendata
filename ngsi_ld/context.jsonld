@@ -313,7 +313,8 @@
         "drinking_water": "https://dbpedia.org/page/Drinking_water",
         "year_of_construction": "https://schema.org/startDate",
         "delivery": "https://dbpedia.org/page/Food_delivery",
-        "takeaway": "http://www.disit.org/km4city/schema#Take_away"
+        "takeaway": "http://www.disit.org/km4city/schema#Take_away",
+        "Atm": "https://schema.org/AutomatedTeller"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
