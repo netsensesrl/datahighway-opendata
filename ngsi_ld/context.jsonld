@@ -319,7 +319,8 @@
         "Cinema": "https://schema.org/MovieTheater",
         "ArtsCentre": "https://dbpedia.org/page/Arts_centre",
         "BicycleParking": "http://schema.mobivoc.org/#BicycleParkingStation",
-        "Monastery": "http://dbpedia.org/ontology/Monastery"
+        "Monastery": "http://dbpedia.org/ontology/Monastery",
+        "Theatre": "https://dbpedia.org/ontology/Theatre"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
