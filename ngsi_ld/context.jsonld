@@ -322,7 +322,7 @@
         "Monastery": "http://dbpedia.org/ontology/Monastery",
         "Theatre": "https://dbpedia.org/ontology/Theatre",
         "Monument": "http://dbpedia.org/ontology/Monument",
-        "NatureReserve": "https://dbpedia.org/ontology/NatureReserve"
+        "NatureReserve": "https://dbpedia.org/page/Nature_reserve"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
