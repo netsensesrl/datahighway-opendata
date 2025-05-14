@@ -297,7 +297,7 @@
         "backrest": "https://dbpedia.org/page/Backrest",
         "artist_name": "https://schema.org/creator",
         "artwork_type": "https://schema.org/additionalType",
-        "parking": "http://schema.mobivoc.org/ParkingSpace",
+        "parking_type": "http://schema.mobivoc.org/ParkingSpace",
         "outdoor_seating": "https://schema.org/seatingType",
         "self_service": "https://dbpedia.org/page/Do_it_yourself",
         "automated": "https://dbpedia.org/page/Automation",
