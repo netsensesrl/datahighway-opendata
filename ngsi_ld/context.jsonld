@@ -18,6 +18,7 @@
         "areaCodeType": "http://dbpedia.org/ontology/areaCodeType",
         "areaTotal": "http://dbpedia.org/ontology/areaTotal",
         "areaTotalKm": "http://dbpedia.org/ontology/areaTotalKm",
+        "altitude": "http://dbpedia.org/ontology/altitude",
         "country": "http://dbpedia.org/ontology/country",
         "demographics1Info": "http://dbpedia.org/ontology/demographics1Info",
         "demographics1Title": "http://dbpedia.org/ontology/demographics1Title",
