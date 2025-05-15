@@ -327,6 +327,7 @@
         "Parking": "http://data.ign.fr/def/topo#Parking",
         "BusStop": "http://schema.org/BusStop",
         "BusStation": "https://schema.org/BusStation",
+        "BusLine": "http://www.disit.org/km4city/schema#PublicTransportLine",
         "Fortress": "http://dbpedia.org/ontology/MilitaryStructure"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
