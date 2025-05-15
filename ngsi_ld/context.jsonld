@@ -328,6 +328,7 @@
         "BusStop": "http://schema.org/BusStop",
         "BusStation": "https://schema.org/BusStation",
         "BusLine": "http://www.disit.org/km4city/schema#PublicTransportLine",
+        "busNumber": "https://schema.org/busNumber",
         "Fortress": "http://dbpedia.org/ontology/MilitaryStructure"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
