@@ -329,6 +329,9 @@
         "BusStation": "https://schema.org/BusStation",
         "BusLine": "http://www.disit.org/km4city/schema#PublicTransportLine",
         "busNumber": "https://schema.org/busNumber",
+        "holidayHours": "http://purl.org/goodrelations/v1#OpeningHoursSpecification",
+        "weekdayHours": "https://schema.org/OpeningHoursSpecification",
+        "hasBusStop": "http://www.disit.org/km4city/schema#BusStop",
         "Fortress": "http://dbpedia.org/ontology/MilitaryStructure"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
