@@ -332,6 +332,7 @@
         "holidayHours": "http://purl.org/goodrelations/v1#OpeningHoursSpecification",
         "weekdayHours": "https://schema.org/OpeningHoursSpecification",
         "hasBusStop": "http://www.disit.org/km4city/schema#BusStop",
+        "passesBy": "https://w3id.org/dpv#City",
         "Fortress": "http://dbpedia.org/ontology/MilitaryStructure"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
