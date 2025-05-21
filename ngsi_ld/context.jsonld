@@ -333,7 +333,12 @@
         "weekdayHours": "https://schema.org/OpeningHoursSpecification",
         "hasBusStop": "http://www.disit.org/km4city/schema#BusStop",
         "passesBy": "https://w3id.org/dpv#City",
-        "Fortress": "http://dbpedia.org/ontology/MilitaryStructure"
+        "Fortress": "http://dbpedia.org/ontology/MilitaryStructure",
+        "price": "https://schema.org/price",
+        "ticket_price": "https://schema.org/totalPrice",
+        "location_name": "https://www.ontotext.com/proton/protonext.html#locationName",
+        "TypicalProduct": "https://schema.org/Product",
+        "dimension": "https://rub-informatik-im-bauwesen.github.io/iddo/#Dimension"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
