@@ -338,7 +338,8 @@
         "ticket_price": "https://schema.org/totalPrice",
         "location_name": "https://www.ontotext.com/proton/protonext.html#locationName",
         "TypicalProduct": "https://schema.org/Product",
-        "dimension": "https://rub-informatik-im-bauwesen.github.io/iddo/#Dimension"
+        "dimension": "https://rub-informatik-im-bauwesen.github.io/iddo/#Dimension",
+        "product_certification": "http://dbpedia.org/ontology/certification"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
