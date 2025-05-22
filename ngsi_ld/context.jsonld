@@ -340,7 +340,8 @@
         "TypicalProduct": "https://schema.org/Product",
         "dimension": "https://rub-informatik-im-bauwesen.github.io/iddo/#Dimension",
         "product_certification": "http://dbpedia.org/ontology/certification",
-        "scientific_name": "http://dbpedia.org/ontology/scientificName"
+        "scientific_name": "http://dbpedia.org/ontology/scientificName",
+        "Museum": "http://schema.org/Museum"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
