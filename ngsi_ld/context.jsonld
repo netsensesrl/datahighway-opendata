@@ -339,7 +339,8 @@
         "location_name": "https://www.ontotext.com/proton/protonext.html#locationName",
         "TypicalProduct": "https://schema.org/Product",
         "dimension": "https://rub-informatik-im-bauwesen.github.io/iddo/#Dimension",
-        "product_certification": "http://dbpedia.org/ontology/certification"
+        "product_certification": "http://dbpedia.org/ontology/certification",
+        "scientific_name": "http://dbpedia.org/ontology/scientificName"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
