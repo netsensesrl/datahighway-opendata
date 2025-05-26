@@ -346,8 +346,11 @@
         "BeachResort": "http://www.disit.org/km4city/schema#Beach_resort",
         "Shelter": "http://www.disit.org/km4city/schema#Mountain_shelter",
         "Hotel": "https://schema.org/Hotel",
-        "stars": "https://schema.org/Rating"
+        "stars": "https://schema.org/Rating",
+        "rooms": "https://schema.org/numberOfRooms",
+        "beds": "https://schema.org/bed"
     },
+        "https://raw.githubusercontent.com/RaffaeleMann/sichelia/refs/heads/main/sicilia_open_data/sichelia_ngsi_ld/context_sichelia.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
 }
