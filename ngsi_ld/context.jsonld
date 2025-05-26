@@ -345,7 +345,8 @@
         "MonumentalTree": "http://dbpedia.org/ontology/Plant",
         "BeachResort": "http://www.disit.org/km4city/schema#Beach_resort",
         "Shelter": "http://www.disit.org/km4city/schema#Mountain_shelter",
-        "Hotel": "https://schema.org/Hotel"
+        "Hotel": "https://schema.org/Hotel",
+        "stars": "https://schema.org/Rating"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
