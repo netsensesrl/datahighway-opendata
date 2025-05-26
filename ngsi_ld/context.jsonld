@@ -350,7 +350,6 @@
         "rooms": "https://schema.org/numberOfRooms",
         "beds": "https://schema.org/bed"
     },
-        "https://raw.githubusercontent.com/RaffaeleMann/sichelia/refs/heads/main/sicilia_open_data/sichelia_ngsi_ld/context_sichelia.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
 }
