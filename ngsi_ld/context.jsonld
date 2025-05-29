@@ -351,7 +351,8 @@
         "beds": "https://schema.org/bed",
         "Agritourism": "http://www.disit.org/km4city/schema#Agritourism",
         "BedAndBreakfast": "https://schema.org/BedAndBreakfast",
-        "Airport": "https://schema.org/Airport"
+        "Airport": "https://schema.org/Airport",
+        "Lighthouse": "http://dbpedia.org/ontology/Lighthouse"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
