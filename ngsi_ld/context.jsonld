@@ -349,7 +349,8 @@
         "stars": "https://schema.org/Rating",
         "rooms": "https://schema.org/numberOfRooms",
         "beds": "https://schema.org/bed",
-        "Agritourism": "http://www.disit.org/km4city/schema#Agritourism"
+        "Agritourism": "http://www.disit.org/km4city/schema#Agritourism",
+        "BedAndBreakfast": "https://schema.org/BedAndBreakfast"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
