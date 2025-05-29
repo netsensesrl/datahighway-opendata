@@ -356,7 +356,8 @@
         "CampSite": "https://schema.org/Campground",
         "SubwayStation": "https://schema.org/SubwayStation",
         "TrainStation": "https://schema.org/TrainStation",
-        "Pharmacy": "https://schema.org/Pharmacy"
+        "Pharmacy": "https://schema.org/Pharmacy",
+        "GasStation": "https://schema.org/GasStation"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
