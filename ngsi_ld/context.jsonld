@@ -359,7 +359,8 @@
         "Pharmacy": "https://schema.org/Pharmacy",
         "GasStation": "https://schema.org/GasStation",
         "BicycleRental": "http://www.disit.org/km4city/schema#Bike_rental",
-        "CarRental": "https://schema.org/AutoRental"
+        "CarRental": "https://schema.org/AutoRental",
+        "PostOffice": "https://schema.org/PostOffice"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
