@@ -362,7 +362,8 @@
         "CarRental": "https://schema.org/AutoRental",
         "PostOffice": "https://schema.org/PostOffice",
         "ChargingStation": "http://www.w3id.org/urban-iot/electric#ChargingStation",
-        "PublicToilet": "https://schema.org/PublicToilet"
+        "PublicToilet": "https://schema.org/PublicToilet",
+        "Supermarket": "http://www.disit.org/km4city/schema#Supermarket"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
