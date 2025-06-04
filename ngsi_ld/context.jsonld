@@ -364,7 +364,8 @@
         "ChargingStation": "http://www.w3id.org/urban-iot/electric#ChargingStation",
         "PublicToilet": "https://schema.org/PublicToilet",
         "Supermarket": "http://www.disit.org/km4city/schema#Supermarket",
-        "Hospital": "https://schema.org/Hospital"
+        "Hospital": "https://schema.org/Hospital",
+        "InfoPoint": "https://schema.org/TouristInformationCenter"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
