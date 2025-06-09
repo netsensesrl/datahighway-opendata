@@ -367,7 +367,8 @@
         "Hospital": "https://schema.org/Hospital",
         "InfoPoint": "https://schema.org/TouristInformationCenter",
         "TownHall": "https://schema.org/CivicStructure",
-        "School": "https://schema.org/School"
+        "School": "https://schema.org/School",
+        "PoliceStation": "https://schema.org/PoliceStation"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
