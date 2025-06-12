@@ -371,7 +371,8 @@
         "PoliceStation": "https://schema.org/PoliceStation",
         "Gym": "https://schema.org/ExerciseGym",
         "University": "https://schema.org/CollegeOrUniversity",
-        "Tobacco": "http://www.disit.org/km4city/schema#Tobacco_shop"
+        "Tobacco": "http://www.disit.org/km4city/schema#Tobacco_shop",
+        "Pastry": "http://www.disit.org/km4city/schema#Pastry_shop"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
