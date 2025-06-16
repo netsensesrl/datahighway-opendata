@@ -375,7 +375,8 @@
         "Pastry": "http://www.disit.org/km4city/schema#Pastry_shop",
         "TrainStop": "https://schema.org/departurePlatform",
         "from": "http://purl.org/tio/ns#from",
-        "to": "https://dbpedia.org/ontology/destination"
+        "to": "https://dbpedia.org/ontology/destination",
+        "TrainLine": "https://schema.org/TrainTrip"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
