@@ -379,7 +379,8 @@
         "TrainLine": "https://schema.org/TrainTrip",
         "hasTrainStop": "http://semweb.mmlab.be/ns/stoptimes#Departure",
         "ArtGallery": "https://schema.org/ArtGallery",
-        "Hostel": "https://schema.org/Hostel"
+        "Hostel": "https://schema.org/Hostel",
+        "Motel": "https://schema.org/Motel"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
