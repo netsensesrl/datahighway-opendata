@@ -373,7 +373,9 @@
         "University": "https://schema.org/CollegeOrUniversity",
         "Tobacco": "http://www.disit.org/km4city/schema#Tobacco_shop",
         "Pastry": "http://www.disit.org/km4city/schema#Pastry_shop",
-        "TrainStop": "https://schema.org/departurePlatform"
+        "TrainStop": "https://schema.org/departurePlatform",
+        "from": "http://purl.org/tio/ns#from",
+        "to": "https://dbpedia.org/ontology/destination"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
