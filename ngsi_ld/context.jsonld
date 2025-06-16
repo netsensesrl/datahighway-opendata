@@ -384,7 +384,8 @@
         "ThemePark": "https://schema.org/AmusementPark",
         "Viewpoint": "https://dbpedia.org/page/Observation_deck",
         "Zoo": "https://schema.org/Zoo",
-        "Chalet": "https://dbpedia.org/page/Chalet"
+        "Chalet": "https://dbpedia.org/page/Chalet",
+        "CampPitch": "https://schema.org/CampingPitch"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
