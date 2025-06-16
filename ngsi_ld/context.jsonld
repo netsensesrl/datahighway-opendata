@@ -385,7 +385,17 @@
         "Viewpoint": "https://dbpedia.org/page/Observation_deck",
         "Zoo": "https://schema.org/Zoo",
         "Chalet": "https://dbpedia.org/page/Chalet",
-        "CampPitch": "https://schema.org/CampingPitch"
+        "CampPitch": "https://schema.org/CampingPitch",
+        "Artwork": "http://dbpedia.org/ontology/Artwork",
+        "Sculpture": "http://dbpedia.org/ontology/Sculpture",
+        "Installation": "https://dbpedia.org/page/Installation_art",
+        "Stele": "https://dbpedia.org/page/Stele",
+        "Painting": "https://schema.org/Painting",
+        "Mosaic": "https://dbpedia.org/page/Mosaic",
+        "Architecture": "https://dbpedia.org/page/Architecture",
+        "Mural": "https://dbpedia.org/page/Mural",
+        "Graffiti": "https://dbpedia.org/page/Graffiti",
+        "Relief": "https://dbpedia.org/page/Relief"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
