@@ -382,7 +382,8 @@
         "Hostel": "https://schema.org/Hostel",
         "Motel": "https://schema.org/Motel",
         "ThemePark": "https://schema.org/AmusementPark",
-        "Viewpoint": "https://dbpedia.org/page/Observation_deck"
+        "Viewpoint": "https://dbpedia.org/page/Observation_deck",
+        "Zoo": "https://schema.org/Zoo"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
