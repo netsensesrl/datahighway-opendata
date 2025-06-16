@@ -395,7 +395,8 @@
         "Architecture": "https://dbpedia.org/page/Architecture",
         "Mural": "https://dbpedia.org/page/Mural",
         "Graffiti": "https://dbpedia.org/page/Graffiti",
-        "Relief": "https://dbpedia.org/page/Relief"
+        "Relief": "https://dbpedia.org/page/Relief",
+        "Statue": "https://dbpedia.org/page/Statue"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
