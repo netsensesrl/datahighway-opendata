@@ -377,7 +377,8 @@
         "from": "http://purl.org/tio/ns#from",
         "to": "https://dbpedia.org/ontology/destination",
         "TrainLine": "https://schema.org/TrainTrip",
-        "hasTrainStop": "http://semweb.mmlab.be/ns/stoptimes#Departure"
+        "hasTrainStop": "http://semweb.mmlab.be/ns/stoptimes#Departure",
+        "ArtGallery": "https://schema.org/ArtGallery"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
