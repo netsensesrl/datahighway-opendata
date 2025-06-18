@@ -401,7 +401,8 @@
         "FerryTerminal": "https://dbpedia.org/page/Passenger_terminal_(maritime)",
         "Marketplace": "https://dbpedia.org/page/Marketplace",
         "Minimarket": "http://www.disit.org/km4city/schema#Minimarket",
-        "Cave": "https://dbpedia.org/page/Cave"
+        "Cave": "https://dbpedia.org/page/Cave",
+        "Volcano": "https://schema.org/Volcano"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
