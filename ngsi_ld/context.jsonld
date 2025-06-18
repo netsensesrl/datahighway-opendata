@@ -399,7 +399,7 @@
         "Statue": "https://dbpedia.org/page/Statue",
         "TicketShop": "https://dbpedia.org/page/Box_office",
         "FerryTerminal": "https://dbpedia.org/page/Passenger_terminal_(maritime)",
-        "MarketPlace": "https://dbpedia.org/page/Marketplace"
+        "Marketplace": "https://dbpedia.org/page/Marketplace"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
