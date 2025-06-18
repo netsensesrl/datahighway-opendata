@@ -403,7 +403,8 @@
         "Minimarket": "http://www.disit.org/km4city/schema#Minimarket",
         "Cave": "https://dbpedia.org/page/Cave",
         "Volcano": "https://schema.org/Volcano",
-        "status": "https://dbpedia.org/ontology/status"
+        "status": "https://dbpedia.org/ontology/status",
+        "Cape": "https://www.ontotext.com/proton/protonext.html#Cape"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
