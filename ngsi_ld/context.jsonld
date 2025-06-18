@@ -404,7 +404,8 @@
         "Cave": "https://dbpedia.org/page/Cave",
         "Volcano": "https://schema.org/Volcano",
         "status": "https://dbpedia.org/ontology/status",
-        "Cape": "https://www.ontotext.com/proton/protonext.html#Cape"
+        "Cape": "https://www.ontotext.com/proton/protonext.html#Cape",
+        "Cycleway": "https://dbpedia.org/page/Cycle_track"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
