@@ -396,7 +396,8 @@
         "Mural": "https://dbpedia.org/page/Mural",
         "Graffiti": "https://dbpedia.org/page/Graffiti",
         "Relief": "https://dbpedia.org/page/Relief",
-        "Statue": "https://dbpedia.org/page/Statue"
+        "Statue": "https://dbpedia.org/page/Statue",
+        "TicketShop": "https://dbpedia.org/page/Box_office"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
