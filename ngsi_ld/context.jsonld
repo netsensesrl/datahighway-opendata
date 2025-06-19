@@ -409,7 +409,8 @@
         "Hiking": "https://dbpedia.org/page/Hiking",
         "TramStop": "http://www.disit.org/km4city/schema#Tram_stops",
         "TramLine": "http://www.disit.org/km4city/schema#Tramline",
-        "hasTramStop": "http://purl.org/tio/ns#Stop"
+        "hasTramStop": "http://purl.org/tio/ns#Stop",
+        "VapeShop": "https://dbpedia.org/page/Vape_shop"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
