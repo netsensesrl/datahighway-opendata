@@ -405,7 +405,8 @@
         "Volcano": "https://schema.org/Volcano",
         "status": "https://dbpedia.org/ontology/status",
         "Cape": "https://www.ontotext.com/proton/protonext.html#Cape",
-        "Cycleway": "https://dbpedia.org/page/Cycle_track"
+        "Cycleway": "https://dbpedia.org/page/Cycle_track",
+        "Hiking": "https://dbpedia.org/page/Hiking"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
