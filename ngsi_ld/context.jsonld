@@ -408,7 +408,8 @@
         "Cycleway": "https://dbpedia.org/page/Cycle_track",
         "Hiking": "https://dbpedia.org/page/Hiking",
         "TramStop": "http://www.disit.org/km4city/schema#Tram_stops",
-        "TramLine": "http://www.disit.org/km4city/schema#Tramline"
+        "TramLine": "http://www.disit.org/km4city/schema#Tramline",
+        "hasTramStop": "http://purl.org/tio/ns#Stop"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
