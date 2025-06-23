@@ -422,7 +422,8 @@
         "TrafficObservation": "http://www.disit.org/km4city/schema#TrafficObservation",
         "measuredBySensor": "http://www.disit.org/km4city/schema#measuredBySensor",
         "concentration": "http://www.disit.org/km4city/schema#concentration",
-        "traffic_index": "http://www.w3.org/2004/02/skos/core#Concept"
+        "traffic_index": "http://www.w3.org/2004/02/skos/core#Concept",
+        "route_category": "https://schema.org/category"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
