@@ -412,7 +412,7 @@
         "hasTramStop": "http://purl.org/tio/ns#Stop",
         "VapeShop": "https://dbpedia.org/page/Vape_shop",
         "startDate": "https://schema.org/startDate",
-        "endDate", "https://schema.org/endDate",
+        "endDate": "https://schema.org/endDate"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
