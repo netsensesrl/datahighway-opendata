@@ -414,7 +414,15 @@
         "startDate": "https://schema.org/startDate",
         "endDate": "https://schema.org/endDate",
         "event": "https://schema.org/Event",
-        "hasEvent": "https://w3id.org/seo#hasEvent"
+        "hasEvent": "https://w3id.org/seo#hasEvent",
+        "TrafficSensor": "http://www.disit.org/km4city/schema#SensorSite",
+        "manufacturer": "http://schema.org/manufacturer",
+        "model": "https://schema.org/model",
+        "hasObservation": "http://www.disit.org/km4city/schema#hasObservation",
+        "TrafficObservation": "http://www.disit.org/km4city/schema#TrafficObservation",
+        "measuredBySensor": "http://www.disit.org/km4city/schema#measuredBySensor",
+        "concentration": "http://www.disit.org/km4city/schema#concentration",
+        "traffic_index": "http://www.w3.org/2004/02/skos/core#Concept"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
