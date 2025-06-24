@@ -413,7 +413,7 @@
         "VapeShop": "https://dbpedia.org/page/Vape_shop",
         "startDate": "https://schema.org/startDate",
         "endDate": "https://schema.org/endDate",
-        "event": "https://schema.org/Event",
+        "Event": "https://schema.org/Event",
         "hasEvent": "https://w3id.org/seo#hasEvent",
         "TrafficSensor": "http://www.disit.org/km4city/schema#SensorSite",
         "manufacturer": "http://schema.org/manufacturer",
