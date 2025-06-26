@@ -425,7 +425,8 @@
         "traffic_index": "http://www.w3.org/2004/02/skos/core#Concept",
         "route_category": "http://dbpedia.org/ontology/category",
         "Library": "https://schema.org/Library",
-        "CityGate": "https://dbpedia.org/ontology/Gate"
+        "CityGate": "https://dbpedia.org/ontology/Gate",
+        "FerryLine": "https://data.ign.fr/def/topo/20190212.htm#TypeDeRoute"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
