@@ -426,7 +426,8 @@
         "route_category": "http://dbpedia.org/ontology/category",
         "Library": "https://schema.org/Library",
         "CityGate": "https://dbpedia.org/ontology/Gate",
-        "FerryLine": "https://data.ign.fr/def/topo/20190212.htm#TypeDeRoute"
+        "FerryLine": "https://data.ign.fr/def/topo/20190212.htm#TypeDeRoute",
+        "hasFerryTerminal": "http://dbpedia.org/ontology/Port"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
