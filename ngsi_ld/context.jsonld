@@ -430,7 +430,9 @@
         "hasFerryTerminal": "http://dbpedia.org/ontology/Port",
         "ManorHouse": "https://dbpedia.org/page/Manor_house",
         "Visit": "https://w3id.org/sbeo#Visit",
-        "Building": "https://www.dco.domos-project.eu/#Building"
+        "Building": "https://www.dco.domos-project.eu/#Building",
+        "Park": "http://schema.org/Park",
+        "height": "https://schema.org/height"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
