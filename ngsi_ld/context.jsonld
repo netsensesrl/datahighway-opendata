@@ -435,7 +435,8 @@
         "height": "https://schema.org/height",
         "Temple": "https://dbpedia.org/ontology/Temple",
         "sport": "https://dbpedia.org/ontology/Sport",
-        "Stadium": "http://dbpedia.org/ontology/Stadium"
+        "Stadium": "http://dbpedia.org/ontology/Stadium",
+        "SportsClub": "https://dbpedia.org/page/Sports_club"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
