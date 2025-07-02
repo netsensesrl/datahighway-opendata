@@ -428,7 +428,9 @@
         "CityGate": "https://dbpedia.org/ontology/Gate",
         "FerryLine": "https://data.ign.fr/def/topo/20190212.htm#TypeDeRoute",
         "hasFerryTerminal": "http://dbpedia.org/ontology/Port",
-        "ManorHouse": "https://dbpedia.org/page/Manor_house"
+        "ManorHouse": "https://dbpedia.org/page/Manor_house",
+        "Visit": "https://w3id.org/sbeo#Visit",
+        "Building": "https://www.dco.domos-project.eu/#Building"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
