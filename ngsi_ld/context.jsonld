@@ -433,7 +433,8 @@
         "Building": "https://www.dco.domos-project.eu/#Building",
         "Park": "http://schema.org/Park",
         "height": "https://schema.org/height",
-        "Temple": "https://dbpedia.org/ontology/Temple"
+        "Temple": "https://dbpedia.org/ontology/Temple",
+        "sport": "https://dbpedia.org/ontology/Sport"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
