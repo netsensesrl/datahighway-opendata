@@ -438,7 +438,8 @@
         "Stadium": "http://dbpedia.org/ontology/Stadium",
         "SportsClub": "https://dbpedia.org/page/Sports_club",
         "Cave": "https://dbpedia.org/page/Cave",
-        "ArchaeologicalProperty": "https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"
+        "ArchaeologicalProperty": "https://w3id.org/arco/ontology/arco/ArchaeologicalProperty",
+        "osm_id": "http://purl.org/dc/terms/identifier"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
