@@ -439,7 +439,9 @@
         "SportsClub": "https://dbpedia.org/page/Sports_club",
         "Cave": "https://dbpedia.org/page/Cave",
         "ArchaeologicalProperty": "https://w3id.org/arco/ontology/arco/ArchaeologicalProperty",
-        "osm_id": "http://purl.org/dc/terms/identifier"
+        "osm_id": "http://purl.org/dc/terms/identifier",
+        "Visit": "https://w3id.org/sbeo#Visit",
+        "relatedTo": "https://schema.org/relatedTo"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
