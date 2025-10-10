@@ -441,7 +441,8 @@
         "ArchaeologicalProperty": "https://w3id.org/arco/ontology/arco/ArchaeologicalProperty",
         "osm_id": "http://purl.org/dc/terms/identifier",
         "Visit": "https://w3id.org/sbeo#Visit",
-        "relatedTo": "https://schema.org/relatedTo"
+        "relatedTo": "https://schema.org/relatedTo",
+        "Document": "https://schema.org/DigitalDocument"
     },
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.6.jsonld"
     ]
